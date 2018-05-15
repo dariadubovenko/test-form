@@ -21,7 +21,7 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = 'hello@violencia.be';//<== update the email address
+$email_from = 'daria@live.be';//<== update the email address
 $email_subject = "TEST";
 $email_body = "You have received a new message from the user $name.\n".
     "Here is the message:\n $message".
